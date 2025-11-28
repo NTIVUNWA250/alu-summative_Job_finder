@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <title>Login - Job Market Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body, html { height: 100%; display: flex; justify-content: center; align-items: center; }
+        .login-card {
+            background: var(--card);
+            padding: 40px;
+            border-radius: 14px;
+            box-shadow: 0 4px 12px var(--shadow);
+            width: 350px;
+        }
+        .login-card h2 { text-align: center; margin-bottom: 25px; }
+        .login-card input {
+            width: 100%; margin-bottom: 15px; padding: 12px 14px; border-radius: 10px; border: 1px solid #dcdcdc;
+            background: var(--bg); color: var(--text);
+        }
+        .login-card button {
+            width: 100%; padding: 12px; border-radius: 10px; background: var(--accent); color: #fff; border: none; cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-card">
+        <h2>Login</h2>
+        <input type="text" id="username" placeholder="Username">
+        <input type="password" id="password" placeholder="Password">
+        <button onclick="login()">Login</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

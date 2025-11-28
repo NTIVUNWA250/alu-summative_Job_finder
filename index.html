@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <title>Job Market Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <nav>
+        <a href="index.html">Search</a>
+        <a href="favorites.html">Favorites</a>
+        <a href="settings.html">Settings</a>
+    </nav>
+</header>
+
+<div class="container">
+    <h1>Find Remote Jobs Worldwide</h1>
+    <div class="search-box">
+        <input id="searchInput" placeholder="Search for roles e.g. Software Engineer">
+        <select id="categoryFilter">
+            <option value="">All Categories</option>
+            <option value="Software Developer">Software Developer</option>
+            <option value="Data Scientist">Data Scientist</option>
+            <option value="Product Manager">Product Manager</option>
+            <option value="Designer">Designer</option>
+        </select>
+        <button onclick="searchJobs()">Search</button>
+    </div>
+
+    <div id="jobsContainer" class="jobs-grid"></div>
+</div>
+
+<script src="script.js"></script>
+<script>
+    checkLogin();
+</script>
+</body>
+</html>

@@ -1,6 +1,6 @@
 // API settings
-const apiKey = "724e617695msh711297355ba1339p1a2074jsn5768c50c8415";
-const apiHost = "jsearch.p.rapidapi.com";
+const apiKey = CONFIG.API_KEY;
+const apiHost = CONFIG.API_HOST;
 
 // ---------------------- Login System ----------------------
 function checkLogin() {

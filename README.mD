@@ -28,7 +28,7 @@ Get your API key from the dashboard
 Open config.js and replace the placeholder:
 
 const CONFIG = {
-  RAPID_API_KEY: 'YOUR_GEOAPIFY_API_KEY_HERE'
+  RAPID_API_KEY: 'YOUR_RAPID_API_KEY_HERE'
 };
 3. Run the App
 Simply open index.html in the web browser:

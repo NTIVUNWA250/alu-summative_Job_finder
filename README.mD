@@ -1,4 +1,7 @@
 Job Finder - Frontend App
+
+The README.md file is best read in code
+
 A simple, pure frontend remote job finder application that searches for jobs using the rapid API.
 
 Link to Demo video
